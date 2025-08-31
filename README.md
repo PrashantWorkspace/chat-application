@@ -5,11 +5,6 @@
 
 A feature-rich **real-time chat application** leveraging *Spring Boot*, *WebSocket*, and *HTTP* protocols for seamless communication. Includes **public/private messaging, chat rooms, file uploads, and user presence indicators**.
 
-image:https://img.shields.io/badge/Java-17+-blue[Java 17+] 
-image:https://img.shields.io/badge/Spring%20Boot-3.x-green[Spring Boot] 
-image:https://img.shields.io/badge/WebSockets-enabled-orange[WebSockets] 
-image:https://img.shields.io/badge/License-MIT-informational[MIT License]
-
 == ✨ Key Features
 * **Real-Time Messaging** → public chat, private chat, and room-based messaging
 * **User Authentication & Sessions** → secure login/logout with session management
@@ -100,14 +95,6 @@ Browser ↔ Spring Boot Server (WebSocket + REST) ↔ Session/File Store
 * [ ] Enable typing indicators
 * [ ] Integrate Redis pub/sub for scaling across servers
 * [ ] Enhance UI with React frontend
-
-== 🤝 Contributing
-PRs welcome!
-
-1. Fork repository
-2. Create feature branch
-3. Commit changes
-4. Open a Pull Request
 
 == 📜 License
 Licensed under the MIT License.
